@@ -16,6 +16,9 @@
 		4156CD232B4A33DE00EE05EB /* AnimateBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4156CD222B4A33DE00EE05EB /* AnimateBindings.swift */; };
 		4156CD252B4A351900EE05EB /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4156CD242B4A351900EE05EB /* ExplicitAnimations.swift */; };
 		4156CD272B4A360400EE05EB /* ControllingAnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4156CD262B4A360400EE05EB /* ControllingAnimationStack.swift */; };
+		4156CD292B4B294900EE05EB /* AnimatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4156CD282B4B294900EE05EB /* AnimatingGestures.swift */; };
+		4156CD2B2B4B2C0200EE05EB /* Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4156CD2A2B4B2C0200EE05EB /* Letters.swift */; };
+		4156CD2D2B4B2D1100EE05EB /* ShowingAndHidingViewsWithTranslations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4156CD2C2B4B2D1100EE05EB /* ShowingAndHidingViewsWithTranslations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		4156CD222B4A33DE00EE05EB /* AnimateBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateBindings.swift; sourceTree = "<group>"; };
 		4156CD242B4A351900EE05EB /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
 		4156CD262B4A360400EE05EB /* ControllingAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingAnimationStack.swift; sourceTree = "<group>"; };
+		4156CD282B4B294900EE05EB /* AnimatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures.swift; sourceTree = "<group>"; };
+		4156CD2A2B4B2C0200EE05EB /* Letters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letters.swift; sourceTree = "<group>"; };
+		4156CD2C2B4B2D1100EE05EB /* ShowingAndHidingViewsWithTranslations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAndHidingViewsWithTranslations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 				4156CD222B4A33DE00EE05EB /* AnimateBindings.swift */,
 				4156CD242B4A351900EE05EB /* ExplicitAnimations.swift */,
 				4156CD262B4A360400EE05EB /* ControllingAnimationStack.swift */,
+				4156CD282B4B294900EE05EB /* AnimatingGestures.swift */,
+				4156CD2A2B4B2C0200EE05EB /* Letters.swift */,
+				4156CD2C2B4B2D1100EE05EB /* ShowingAndHidingViewsWithTranslations.swift */,
 				4156CD132B4A170400EE05EB /* Assets.xcassets */,
 				4156CD182B4A170400EE05EB /* AnimationSandbox.entitlements */,
 				4156CD152B4A170400EE05EB /* Preview Content */,
@@ -154,13 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4156CD2B2B4B2C0200EE05EB /* Letters.swift in Sources */,
 				4156CD1F2B4A31A400EE05EB /* ImplicitAnimation.swift in Sources */,
 				4156CD232B4A33DE00EE05EB /* AnimateBindings.swift in Sources */,
 				4156CD212B4A32A000EE05EB /* CustomizingAnimations.swift in Sources */,
 				4156CD122B4A170200EE05EB /* ContentView.swift in Sources */,
+				4156CD292B4B294900EE05EB /* AnimatingGestures.swift in Sources */,
 				4156CD252B4A351900EE05EB /* ExplicitAnimations.swift in Sources */,
 				4156CD102B4A170200EE05EB /* AnimationSandboxApp.swift in Sources */,
 				4156CD272B4A360400EE05EB /* ControllingAnimationStack.swift in Sources */,
+				4156CD2D2B4B2D1100EE05EB /* ShowingAndHidingViewsWithTranslations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
